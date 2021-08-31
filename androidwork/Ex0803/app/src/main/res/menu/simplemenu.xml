@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tab1"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:title="web띄우기" />
+    <item
+        android:id="@+id/teb2"
+        android:icon="@android:drawable/ic_lock_idle_alarm"
+        android:title="스톱워치" />
+    <item
+        android:id="@+id/tab3"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="두더지잡기" />
+    <item
+        android:id="@+id/tab4"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="환경 설정" />
+</menu>

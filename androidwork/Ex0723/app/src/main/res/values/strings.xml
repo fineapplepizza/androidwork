@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ex0723</string>
+    <string-array name="color_list">
+        <item>빨강</item>
+        <item>노랑</item>
+        <item>파랑</item>
+    </string-array>
+
+</resources>
