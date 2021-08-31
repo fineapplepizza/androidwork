@@ -1,0 +1,9 @@
+지난 시간 문제점!
+현재 Android Project의 패키지 이름이 모두 같아서 생긴문제!
+=> 패키지 이름을 바꿔서 해결!
+=>1.패키지 이름 바꾸기
+=>2.바꾼 패키지 이름으로 FireBase등록하기
+manifest변경
+build.gradle 변경
+requestQueue
+StringRequest

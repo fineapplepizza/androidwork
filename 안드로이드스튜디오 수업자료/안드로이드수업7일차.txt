@@ -1,0 +1,14 @@
+App을 실행시키면 실행된
+Activity들을 저장할 수
+있는 저장공간이 생기는데
+그 구조는 Stack 형식으로 만들어짐
+Stack==>  한쪽은 막히고 한쪽을 뚫린
+자료구조 
+StartActivity => stack에 Activity가 쌓임
+stack 구조 => task
+task 여러개 쓰는 것? => multi-tasking
+Android는 multi-tasking을 지원하기 때문에 여러어플을
+도시에 실행시키는 것이 가능!
+stack을 안드로이드내부에 여러개 만들어질 수 있음
+어플의 개수 만큼 task가 만들어짐
+

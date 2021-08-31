@@ -1,0 +1,25 @@
+Android
+기본 뷰(Button,TextView,EditText,ImageView)
+레이아웃(Constraint, Linear)
+클릭 Event처리
+-onClick속성, 
+-Anonymous(괄호안에 바로 new)
+-implements하고 Overriding
+Intent,
+편도:startActivity,
+왕복:startActivityForResult-setResult-onActivityResult
+ListView
+- 글자만 들어간거
+- 항목 추가/삭제하기!
+- Custom => 채팅화면 구성
+DataBase(App 종료시에도 데이터 유지하기)
+서버연동(Volley 라이브러리)
+- 강사컴 DB에 회원가입하기
+- 로그인하기
+실시간DataBase 연동(Google FireBase연동): 카톡만들기
+
+Thread(프로세스 병렬처리) => 두더지잡기 게임 만들기
+Service 
+Fragment
+Bluetooth
+기타 프로젝트 필요기술들~~

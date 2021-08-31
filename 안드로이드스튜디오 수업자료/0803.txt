@@ -1,0 +1,12 @@
+1.bottombar에서 선택한 메뉴에 따라 FrameLayout에 올라갈 Fragment가 결정된다.
+=> 어떤 메뉴를 선택했는지 알아내야함 => 메뉴에 id가 있어야함
+=> 메뉴를 선택했을 때 띄울 Fragment를 만들어야함 
+Fragment는 Activity포함된 한 부분
+Activity는 독립된 페이지
+Fragment는 Activity에 없으면 동작하지 않는다.
+Fragment하나 만들면 java파일과 xml파일 생성
+Activity는 고정 동적으로 바꾸고 싶으면 Fragment
+어떤 Fragment를 결정할지도 Activity
+
+2.Fragment안에 들어있는 Buttom에 EventListener주는 법!
+buddle 화면전환되었을때 상태유지

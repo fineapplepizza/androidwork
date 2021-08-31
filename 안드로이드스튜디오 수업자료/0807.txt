@@ -1,0 +1,2 @@
+Thread 객체 생성 -> start(); -> run() -> handler.sendMessage
+->handler안의 handleMessage ->setText();

@@ -1,0 +1,15 @@
+오늘할거
+웹뷰
+스톱워치
+1) 1번 Fragment에 WebView 띄우기
+2) 4번 Fragment에 URL입력하고 확인버튼 누르면
+   1번 Fragment에 반영하기
+=> App를 껐다켜도 유지되는 데이터 만들기!
+=> SharedPreference
+
+
+///
+http 통신규약 사용
+manifest -> application ->android:usesCleartextTraffic="true"
+
+

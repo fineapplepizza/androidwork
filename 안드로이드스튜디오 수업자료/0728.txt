@@ -1,0 +1,37 @@
+1단계
+- 바로가기 목록 만들기(ListView 구현)
+
+- 템플릿
+ layout -> xml만들기!o
+
+- 데이터
+한 칸의 정보를 저장할 수 있는 VO(Class)설계하기  o
+모든 바로가기 정보를 저장할 ArrayList 생성하고 o
+바로가기를 저장하기(add)o
+
+- 어뎁터(어제 예제 참고하기)
+  BaseAdapter 상속받기o
+  추상메소드 오버로딩하기(alt+enter)o
+  생성자 만들기(inflater)o
+  getView 구현하기o
+  
+- ListView에 Adapter설정o
+
+2단계)
+- 추가하기 기능 만들기(게시판 로그인 예제)
+
+- 추가버튼 누르면 두번째 Activity로 이동하기(but 갔다 와야함! startActivityForResult)o
+- 두번째 Activity에서 title과 url 입력하기 ok버튼 누르면 다시 Main으로 돌아옴
+ -EditText에 적혀있는 title, url정보 가지고 다시 돌아와야함
+ -Intent, setResult, finish
+ -이전에는 아이디 하나만 가져오면 됐었음...but 이번에는 title,url 2개 정보를 가지고 와야함
+어떻게??
+
+- 갔다왔을 때 실행되는 메소드(onActivityResult)에서 갔다 올 때 가져온 데이터(Intent)꺼내서
+ArrayList에 추가~~~~
+- Adapter새로고침
+
+3단계)
+- 바로가기 버튼기능 구현하기
+4단계 )
+-길게 클릭하면 (LongClickEvent)구현하기
